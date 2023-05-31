@@ -1,0 +1,125 @@
+*{
+    padding: 0%;
+margin: 0;
+box-sizing: 0;
+}
+.imag1 img{
+  width: 13rem;
+  height: 11rem;
+  /* border: 1px red solid; */
+  border-radius: 8rem;
+
+}
+.imag1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+    text-decoration:none ;
+}
+/* Link{
+    font-family: 2rem !important
+    */
+
+.imag1 img:hover{
+    transform: translateY(-10px);
+    transition: transform 250ms;
+ 
+  }
+  .name{
+    width: 100%;
+    font-size: 2rem;
+    color: #074b88;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cardmain{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+justify-content:space-between;
+  }
+  .cardsub{
+    width: 17rem;
+    height: 33rem;
+   
+  }
+  .pcard{
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+    align-items: center;
+  }
+  .First{
+    width: 100%;
+  display: flex;
+  height: 100vh;
+  /* margin-top: 4rem; */
+  /* background-color: black; */
+
+  }
+.homeimg{
+  width: 100%;
+  height: 100%;
+  background-image:url("https://i.postimg.cc/yN1PY10B/2301-q702-004-S-m005-c12-real-estate.jpg") ;
+}
+#p1{
+  font-size: 5rem;
+  margin-left: 7rem;
+  margin-top: 2rem;
+  font-family: serif;
+  font-weight: 300;
+  color: #063970;
+  margin-bottom: 0;
+}
+#p2{
+  font-size: 5rem;
+  margin-left: 7rem;
+
+  font-family: serif;
+  font-weight: 300;
+  color: #063970;
+  margin-bottom: 0;
+}
+.searchh{
+  width: 100%;
+display: flex;
+justify-content: center;
+  background-position: 10px 10px!important;
+  background-repeat: no-repeat!important;
+  padding-left: 40px!important;
+}
+.searchh input{
+  border-radius: 1.3rem;
+  outline: none!important;
+  /* border-color: blue; */
+  width: 21rem;
+  height: 2.5rem;
+  border: none;
+  /* color: aqua; */
+  background-color:#acbec0!important;
+  text-align: center;
+}
+@media(max-width:768px){
+  #p1{
+    font-size: 3rem;
+  }
+  #p2{
+    font-size: 3rem;
+  }
+  .imag1{
+    flex-direction: column;
+  }
+  .heading2 p{
+    font-size: 1.5rem;
+  }
+}
+

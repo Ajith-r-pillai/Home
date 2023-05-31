@@ -1,0 +1,40 @@
+.viewmain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+.viewimgbox{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid yellow; */
+}
+.viewimg{
+    width: 55%;
+    height: 30rem;
+}
+.viewdetails{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.viewhead{
+    color:yellow;
+    font-size: 1.4rem;
+    /* text-transform: uppercase; */
+    margin-top: 2rem;
+    font-weight: 600;
+}
+.viewcontent{
+    color:yellow;
+    /* text-transform: uppercase; */
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+.form1{
+    margin-top:5rem ;
+}

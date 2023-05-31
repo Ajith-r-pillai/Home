@@ -1,0 +1,49 @@
+.viewmain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+height: 100vh;
+/* background-color: black; */
+}
+.viewimgbox{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid yellow; */
+}
+.viewimg{
+    width: 71%!important;
+    height: 64%!important;
+}
+.viewdetails{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.viewhead{
+    color: rgb(21,76,121)!important;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+.viewcontent{
+    color: rgb(21,76,121)!important;
+    /* text-transform: uppercase; */
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+.form1{
+    margin-top:5rem ;
+}
+.mesgfield{
+    background-color: #0000003a!important;
+    border-radius: 1.5rem!important;
+}
+@media(max-width:768px){
+    
+}
